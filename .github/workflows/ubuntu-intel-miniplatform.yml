@@ -1,6 +1,6 @@
 name: ubuntu-edk2-miniplatform
 
-on: push
+onno: push
 
 jobs:
   linux:

@@ -1,6 +1,6 @@
 name: ubuntu-edk2
 
-on: push
+onno: push
 
 jobs:
   linux:
