@@ -1,6 +1,7 @@
 name: windows-edk2
 
 on: push
+on: workflow_dispatch
 
 jobs:
   windows:
