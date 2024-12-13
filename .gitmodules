@@ -16,3 +16,5 @@
 [submodule "FSP"]
 	path = FSP
 	url = https://github.com/IntelFsp/FSP.git
+[submodule "./edk2-libc"]
+	url = https://github.com/ShireCiel/edk2-libc.git
