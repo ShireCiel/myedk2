@@ -62,7 +62,6 @@ jobs:
           cd edk2-libc/AppPkg/Applications/Python/Python-3.6.8
           python srcprep.py
           cd ${{ github.workspace }}
-          #sed -i 's+# AppPkg/Applications/Python/Python-3.6.8/Python368.inf+AppPkg/Applications/Python/Python-3.6.8/Python368.inf+1' edk2-libc/AppPkg/AppPkg.dsc
 
       - name: Customize Patches for ShellPkg
         shell: cmd
