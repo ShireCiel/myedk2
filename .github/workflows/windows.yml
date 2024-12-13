@@ -10,7 +10,7 @@ jobs:
       fail-fast: false
       matrix:
         include: [
-          { NAME: 'AppPkg',         PACKAGE: 'AppPkg/AppPkg.dsc',                                     TARGET: 'RELEASE', ARCH: 'X64',     TOOLCHAIN: 'VS2019',       ADDITIONAL_DEFINITION: '' },
+          { NAME: 'AppPkg',         PACKAGE: 'AppPkg/AppPkg.dsc',                                     TARGET: 'RELEASE', ARCH: 'X64',     TOOLCHAIN: 'VS2019',       ADDITIONAL_DEFINITION: '-D BUILD_PYTHON368' },
           #{ NAME: 'AppPkg',         PACKAGE: 'AppPkg/AppPkg.dsc',                                     TARGET: 'DEBUG',   ARCH: 'X64',     TOOLCHAIN: 'VS2019',       ADDITIONAL_DEFINITION: '' },
           #{ NAME: 'ShellPkg',       PACKAGE: 'ShellPkg/ShellPkg.dsc',                                 TARGET: 'RELEASE', ARCH: 'X64',     TOOLCHAIN: 'VS2019',       ADDITIONAL_DEFINITION: '' },
           #{ NAME: 'FatPkg',         PACKAGE: 'FatPkg/FatPkg.dsc',                                     TARGET: 'RELEASE', ARCH: 'X64',     TOOLCHAIN: 'VS2019',       ADDITIONAL_DEFINITION: '' },
